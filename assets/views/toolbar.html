@@ -1,0 +1,10 @@
+<div class="bread">
+  {{bread}}
+</div>
+<div flex></div>
+<div ng-show="auth.isAuthenticated()" class="user-name">
+  {{user().email}}
+  <a href="#" ng-click="logout()">
+    <ng-md-icon icon="exit_to_app" style="fill:black"></ng-md-icon>
+  </a>
+</div>
